@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* width: 1263px;
+    height: 1024px; */
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #373737;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.cabeçalho-ul{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.ul-nav{
+    text-decoration: none;
+    padding-left: 80px;
+    font-size: 20px;
+    color: white;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ul-nav:hover{
+    color: red;
+}
+
+.img-inicial{
+    height: 770px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: #373737;
+    height: 870px;
+    width: 100%;
+    display: flex;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* bottom: 0; */
+    background-color: #373737;
+}
+
+h2{
+    color: white;
+    padding-left: 35px;
+}
+
+.dados{
+    margin-top: 285px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    color: white;
+}
+
+.a-li{
+    color: white;
+}
+
+.a-li:hover{
+    color: red;
+}
+
+.li-contato{
+    margin: 8px;
+}
+
+.li-button{
+    margin: 10px;
+}
+
+button{
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.button-inicial{
+    background-color: #373737;
+    position: absolute;
+    margin: 5% 40% 0 40%;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    opacity: 70%;
+}
+
+.button-inicial:hover{
+    opacity: 100%;
+}
+
+.a-inicial{
+    padding: 10px 50px 10px 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.a-inicial:hover{
+    color: red;
+}
+
+.section-sobre{
+    background-color: #3d3d3d;
+    text-align: center;
+    color: white;
+    margin: 50px 50px 170px 50px;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.perfil{
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.produtos{
+    width: 150;
+    height: 150px;
+    padding: 50px 50px 0px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-produtos{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #373737;
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+.section-representadas{
+    background-color: #3d3d3d;
+    padding: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.button-representadas{
+    background-color: #373737;
+    border: 1px solid red;;
+    width: 30%;
+}
+
+.button-representadas:hover{
+    background-color: white;
+    /* opacity: 50%; */
+}
+
+.a-hover{
+    padding: 10px 110px 10px 110px;
+    color: white;
+}
+
+.a-hover:hover{
+    color:red;
+}
