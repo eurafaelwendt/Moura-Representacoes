@@ -33,16 +33,39 @@
     <!-- Final do cabeçalho -->
 
     <!-- Início do corpo da página -->
-    <section>
-        <button class="button-inicial">
-            <a class="a-inicial" href="produtos.html">Conhecer mais produtos</a>
-        </button>
-        <img class="img-inicial" src="Imagens/Folders/Folder_inicial.png" />
+    <section class="section-representadas">
+        <div class="section-div">
+            <p style="background-color: transparent; margin: 0px; font-size: 30px; color: white;">Entre em contato conosco e conheça mais os produtos</p>
+            <form action="/action_page.php" method="get" style="display: flex;" id="form">
+                <li>
+                    <input type="text" placeholder="Nome..." class="input-form" id="nome"></form>
+                </li>
+                <li>
+                    <input type="text" placeholder="E-mail..." class="input-form" id="email"></form>
+                </li>
+                <li>
+                    <input type="text" placeholder="Telefone..." class="input-form" id="telefone"></form>
+                </li>
+                <li>
+                    <input type="text" placeholder="Cidade..." class="input-form" id="cidade"></form>
+                </li>
+                <li>
+                    <input type="text" placeholder="Estado..." class="input-form" id="estado"></form>
+                </li>
+                <li>
+                    <input type="text" placeholder="Assunto..." class="input-form" id="assunto"></form>
+                </li>
+                <li>
+                    <textarea type="text" placeholder="Mensagem..." id="conteudo" rows="10px" cols="70px" style="background-color: transparent; border: 1px solid white; border-radius: 5px; padding-left: 10px;"></textarea>
+                </li>
+                <button type="submit" class="button-enviar" id="enviar" >Enviar</button>
+            </form>    
+        </div>      
     </section>
     <!-- Final do corpo da página -->
 
-    <!-- Início do cabeçalho -->
-    <footer>
+    <!-- Início do rodape -->
+    <footer style="border-top: 1px solid white;">
         <div>
             <img class="logo-footer" src="Imagens/Logos/Logo_mr.png" />
         </div>
@@ -88,7 +111,7 @@
         </div>
     </footer>
     <p class="copyright">&copy; 2020 Rafael Wendt de Moura</p>
-    <!-- Final do cabeçalho -->
+    <!-- Final do rodape -->
 </body>
 <script src="fale-conosco.js"></script>
 </html>

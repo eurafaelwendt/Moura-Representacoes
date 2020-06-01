@@ -147,13 +147,13 @@ button{
 }
 
 .section-sobre{
-    background-color: #3d3d3d;
     text-align: center;
     color: white;
     margin: 50px 50px 170px 50px;
     padding: 50px;
     border-radius: 5px;
     border: 1px solid white;
+    background-color: #3d3d3d;
 }
 
 .perfil{
@@ -166,7 +166,7 @@ button{
 .produtos{
     width: 150;
     height: 150px;
-    padding: 50px 50px 0px 50px;
+    padding: 50px 60px 0px 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -190,18 +190,19 @@ h4{
 .section-representadas{
     background-color: #3d3d3d;
     padding: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
 .button-representadas{
     background-color: #373737;
-    border: 1px solid red;;
+    border: 1px solid white;;
     width: 30%;
 }
 
 .button-representadas:hover{
-    background-color: white;
+    background-color: red;
+    border: 1px solid red;
     /* opacity: 50%; */
 }
 
@@ -210,6 +211,66 @@ h4{
     color: white;
 }
 
-.a-hover:hover{
+/* .a-hover:hover{
     color:red;
+} */
+
+.section-div{
+    background-color: #3d3d3d;
+    padding: 10px;
+    padding-bottom: 50px;
+    border: 1px solid white;
+}
+
+form{
+    /* text-align: center; */
+    padding-top: 50px;
+    padding-left: 350px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+.input-form{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    color: white;
+    margin-top: 10px;
+}
+
+.button-enviar{
+    background-color: transparent;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.button-enviar:hover{
+    background-color: red;
+}
+
+.button-produtos{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.button-produtos:hover{
+    background-color: white;
+}
+
+.a-produtos{
+    color: white;
+    padding: 10px 48px 10px 48px;
+}
+
+.a-produtos:hover{
+    color: #3d3d3d
 }
