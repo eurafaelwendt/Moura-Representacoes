@@ -203,7 +203,6 @@ h4{
 .button-representadas:hover{
     background-color: red;
     border: 1px solid red;
-    /* opacity: 50%; */
 }
 
 .a-hover{
@@ -211,19 +210,7 @@ h4{
     color: white;
 }
 
-/* .a-hover:hover{
-    color:red;
-} */
-
-.section-div{
-    background-color: #3d3d3d;
-    padding: 10px;
-    padding-bottom: 50px;
-    border: 1px solid white;
-}
-
 form{
-    /* text-align: center; */
     padding-top: 50px;
     padding-left: 350px;
 }
